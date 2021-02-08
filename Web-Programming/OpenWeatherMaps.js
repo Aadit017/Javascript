@@ -1,6 +1,6 @@
 const fetch = require('node-fetch')
 
-const APPID = '' // <-- Put your OpenWeatherMap appid here!
+const APPID = '' // <-- Put your OpenWeatherMap app id here!
 const URL_BASE = 'http://api.openweathermap.org/data/2.5/'
 
 async function currentWeather (location) {
